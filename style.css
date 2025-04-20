@@ -1,0 +1,23 @@
+@font-face {
+    src: url("fonts/Satoshi-Regular.woff") , format("woff");
+    font-family: satoshi;
+}*{
+    font-family: satoshi , sans-serif;
+}
+
+.top-bar{
+    height: 15px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.heading:hover{
+    border-bottom: #000 solid 2px;
+}
+.img-1,.img-3{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+}
+
+
